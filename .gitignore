@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data / checkpoints / artifacts
+data/
+checkpoints/
+ckpt/
+logs/
+runs/
+wandb/
+outputs/
+results/
+embeddings/
+*.npz
+*.pt
+*.safetensors
+*.bin
+
+# Hugging Face / datasets cache
+.cache/
+hf_cache/
+
+# Local environment overrides
+.env
+.envrc
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
