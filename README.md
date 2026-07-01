@@ -13,14 +13,14 @@ V-SPLADE encodes document page images into vocab-dim sparse vectors with a
 SPLADE-style sparse head, and encodes queries with an **inference-free
 Bag-of-Words / Li-LSR lookup table** (no GPU forward at query time).
 
-## Pretrained weights (Soon to be released)
+## Pretrained weights
 
 Two variants on the HuggingFace Hub:
 
 | Variant | HF Repo | ViDoRe v2 nDCG@5 | Avg FLOPs |
 |---|---|---|---|
-| **V-SPLADE Quality** | [naver/v-splade](https://huggingface.co/naver/v-splade)   | **0.4990** | 1.51 |
-| **V-SPLADE Efficient** | [naver/v-splade](https://huggingface.co/naver/v-splade) | 0.4658 | 0.98 |
+| **V-SPLADE Quality** | [naver/v-splade](https://huggingface.co/naver/v-splade-quality)   | **0.4990** | 1.51 |
+| **V-SPLADE Efficient** | [naver/v-splade](https://huggingface.co/naver/v-splade-efficient) | 0.4658 | 0.98 |
 
 The inference helper's `--hf_dir` accepts either a HuggingFace Hub repo id
 (the export is downloaded automatically) or a local directory.
