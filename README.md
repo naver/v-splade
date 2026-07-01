@@ -19,8 +19,8 @@ Two variants on the HuggingFace Hub:
 
 | Variant | HF Repo | ViDoRe v2 nDCG@5 | Avg FLOPs |
 |---|---|---|---|
-| **V-SPLADE Quality** | [naver/v-splade](https://huggingface.co/naver/v-splade-quality)   | **0.4990** | 1.51 |
-| **V-SPLADE Efficient** | [naver/v-splade](https://huggingface.co/naver/v-splade-efficient) | 0.4658 | 0.98 |
+| **V-SPLADE Quality** | [naver/v-splade-quality](https://huggingface.co/naver/v-splade-quality)   | **0.4990** | 1.51 |
+| **V-SPLADE Efficient** | [naver/v-splade-efficient](https://huggingface.co/naver/v-splade-efficient) | 0.4658 | 0.98 |
 
 The inference helper's `--hf_dir` accepts either a HuggingFace Hub repo id
 (the export is downloaded automatically) or a local directory.
